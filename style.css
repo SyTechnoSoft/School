@@ -142,6 +142,7 @@ padding: 30px;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    position: relative;
 }
 h1{
     font-size: 36px;
@@ -177,7 +178,7 @@ h3{
 }
 
 .course-col:hover{
-    box-shadow: 0 0 20px 0px (rgb(0, 0, 0,0.2));
+    box-shadow:rgb(0, 0, 0,0.2);
 }
 
 
@@ -185,4 +186,38 @@ h3{
     .row{
         flex-direction: column;
     }
+}
+
+
+/* --campus-- */
+.campus{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        position: relative;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    
+
+}
+
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
 }
